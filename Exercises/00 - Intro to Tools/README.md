@@ -9,14 +9,14 @@ We don't care which platform you use to produce the Jupyter Notebook files that 
 
 ## Part 1: Setting up your environment (IF you want a local/offline installation)
 
-* Install Anaconda, Python 3.11 version: [Anaconda](https://www.anaconda.com/download).
+* Install Anaconda, Python 3.13 version: [Anaconda](https://www.anaconda.com/download). If you run into issues later with this version, consider downloading an earlier version such as 3.11 from [here](https://anaconda.org/anaconda/python/files?page=0&version=3.11.13).
 
 *For Windows*: In the download options, choose "Add Anaconda3 to my PATH environment variable"
 
 *For Linux (x86)*: Open a terminal, go to the Downloads folder and execute:
 
 ```
-bash ./Anaconda3-2024.06-1-Linux-x86_64.sh -b -p $HOME/Anaconda3
+bash ./Anaconda3-2025.06-0-Linux-x86_64.sh -b -p $HOME/Anaconda3
 ```
 
 Check that `conda` is in your path. If `which conda` returns something like `/home/YOURUSERNAME/Anaconda3/bin/conda`, you are good to go. Otherwise execute
@@ -43,8 +43,8 @@ Install it following this download link: [Git](https://git-scm.com/download/win)
 * Clone the tutorials repo into a local folder:
 
 ```
-git clone https://github.com/epfl-ada/2024 ADA2024
-cd ADA2024
+git clone https://github.com/epfl-ada/2025 ADA2025
+cd ADA2025
 ```
 <!-- 
 * or pull new changes if you already have it (from the local folder):
@@ -62,7 +62,7 @@ To execute Anaconda commands, use the Anaconda prompt: home key - type "anaconda
 Also note that while it is possible to use Git commands on Anaconda prompt, we advise against it.
 
 ```
-conda create -y -n ada python=3.11 scipy pandas numpy matplotlib=3.7.2
+conda create -y -n ada python=3.13 scipy pandas numpy matplotlib ipykernel ipywidgets
 ```
 
 * Activate it:
@@ -125,7 +125,7 @@ Please read [this tutorial](good_coding_practices.ipynb).
 
 ## Part 4: Homework 0
 
-Access Homework 0 (OPTIONAL and UNGRADED) [here](https://github.com/epfl-ada/2024/tree/main/Homework/00%20-%20Optional%20Homework). Clone the repo locally and take the opportunity to freshen up your Python skills, or to acquire them.
+Access Homework 0 (OPTIONAL and UNGRADED) [here](https://github.com/epfl-ada/2025/tree/main/Homework/00%20-%20Optional%20Homework). Clone the repo locally and take the opportunity to freshen up your Python skills, or to acquire them.
 
 ## Common issues
 
